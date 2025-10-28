@@ -1,0 +1,21 @@
+{
+  "name": "laravel/elastic-search-document",
+  "type": "project",
+  "require": {
+    "php": "^8.2",
+    "elasticsearch/elasticsearch": "^9.1",
+    "illuminate/collections": "^12.36"
+  },
+  "autoload": {
+    "psr-4": {
+      "Elastic\\Elasticsearch\\Indice\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}
