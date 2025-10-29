@@ -1,5 +1,5 @@
 {
-  "name": "laravel/elastic-search-document",
+  "name": "laravel/elastic-search-indice",
   "type": "project",
   "require": {
     "php": "^8.2",
